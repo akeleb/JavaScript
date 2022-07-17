@@ -1,12 +1,11 @@
-const message = 'Hello world' // Try edit me
-const title ='Akele Belay Walelign'
-
+/* eslint-disable no-console */
+const message = 'Hello world'; // Try edit me
+const title = 'Akele Belay Walelign';
 // Update header text
-document.querySelector('#header').innerHTML = message
-document.getElementById('titl').innerHTML = title
+document.querySelector('#header').innerHTML = message;
+document.getElementById('titl').innerHTML = title;
 
-// Log to console
-console.log(message)
+console.log(message);
 
 // variables
 
@@ -22,7 +21,7 @@ console.log(message)
     console.log(birthYear)
     var year=1998
 } */
-//MyFunc()
+// MyFunc()
 // console.log(year)
 
 // var age = 100;
@@ -38,6 +37,4 @@ console.log(message)
 //     //console.log("You are", dogYears, "dog years old!");
 //     console.log(`You are ${dogYears} dog years old!`);
 // }
-  //console.log(dogYears) err- let is a blockscoped 
-
-
+// console.log(dogYears) err-let is a blockscoped
