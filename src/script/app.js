@@ -23,3 +23,5 @@ const bmi = weight / hight ** 2
 
 let mybmi = document.getElementById("bmi")
 mybmi.innerHTML = "The Body-Mass Index of Akele Is " + bmi
+
+document.getElementById("truth").innerHTML = hight<1.90
