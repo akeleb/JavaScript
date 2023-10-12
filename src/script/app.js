@@ -20,7 +20,6 @@ const hight = 1.70
 const weight = 61
 
 const bmi = weight / hight ** 2
-
 let mybmi = document.getElementById("bmi")
 mybmi.innerHTML = "The Body-Mass Index of Akele Is " + bmi
 
